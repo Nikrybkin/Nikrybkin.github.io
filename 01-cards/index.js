@@ -17,4 +17,4 @@ function slidePlugin(changeActive = 0) {
   }
 }
 
-slidePlugin(2);
+slidePlugin(3);
