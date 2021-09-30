@@ -94,16 +94,16 @@ function changeColor() {
   return colors[index];
 }
 
-function winTheGame() {
-  function kill() {
-    const circle = document.querySelector(".circle");
+// function winTheGame() {
+//   function kill() {
+//     const circle = document.querySelector(".circle");
 
-    if (circle) {
-      circle.click();
-    }
-  }
+//     if (circle) {
+//       circle.click();
+//     }
+//   }
 
-  setInterval(kill, 1);
-}
+//   setInterval(kill, 1);
+// }
 
-winTheGame();
+// winTheGame();
