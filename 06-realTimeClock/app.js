@@ -1,5 +1,5 @@
-let section = document.querySelector("section");
-let theme = document.querySelector(".theme");
+const section = document.querySelector("section");
+const theme = document.querySelector(".theme");
 
 theme.addEventListener("click", () => {
   section.classList.toggle("dark");
