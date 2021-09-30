@@ -1,0 +1,132 @@
+body {
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  color: #000;
+
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+section {
+  padding: 0 20px;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+  background: #f0f8ff;
+  transition: all 0.4s ease;
+}
+
+section.dark {
+  background: #24292d;
+  color: #fff;
+}
+
+.container {
+  /* max-width: 560px;
+  width: 560px; */
+  padding: 20px;
+  border-radius: 12px;
+
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+section.dark .container {
+  background: #323840;
+}
+
+.theme {
+  position: relative;
+  width: 100%;
+  height: 30px;
+}
+
+.theme i {
+  position: absolute;
+  right: 0;
+
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-size: 30px;
+
+  cursor: pointer;
+}
+
+.fa-sun {
+  opacity: 0;
+}
+
+.fa-moon {
+  opacity: 1;
+}
+
+section.dark .fa-sun {
+  opacity: 1;
+}
+
+section.dark .fa-moon {
+  opacity: 0;
+}
+
+.clock {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 16px;
+  padding-bottom: 46px;
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.clock-column {
+  padding: 20px;
+  margin: 0 20px;
+  border-radius: 6px;
+  text-align: center;
+
+  background: #f0f8ff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+section.dark .clock-column {
+  background: #24292d;
+}
+
+.num {
+  display: block;
+  font-size: 40px;
+  font-weight: 600;
+
+  margin-bottom: 5px;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.border {
+  font-size: 50px;
+}
+
+.am-pm {
+  font-size: 20px;
+  font-weight: 700;
+}
