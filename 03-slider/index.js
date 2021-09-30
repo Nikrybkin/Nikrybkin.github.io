@@ -40,6 +40,7 @@ function changeSlide(direction) {
   }
 
   let height = container.clientHeight;
+
   sidebar.style.transform = `translateY(${activeSlideIndex * height}px)`;
   mainSlide.style.transform = `translateY(-${activeSlideIndex * height}px)`;
 }

@@ -8,8 +8,8 @@ const colors = [
   "#ffffff",
   "#ffff00",
   "#ff0000",
-  "#14ff00",
   "#fa00ff",
+  "#14ff00",
 ];
 
 let time = 0;
