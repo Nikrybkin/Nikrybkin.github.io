@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style/apps.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Portfolio</title>
+</head>
+<body id="body">
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <nav class="nav" id="nav">
+                    <a class="nav__item" href="#" data-scroll="#home">Home</a>
+                    <a class="nav__item" href="#" data-scroll="#about">About me</a>
+                    <a class="nav__item" href="#" data-scroll="#skills">Skills</a>
+                    <a class="nav__item" href="#" data-scroll="#portfolio">Portfolio</a>
+                    <a class="nav__item" href="#" data-scroll="#contacts">Contacts</a>
+                </nav>
+
+                <button class="nav-toggle" type="button" id="navToggle">
+                    <span class="nav-toggle-item">Menu</span>
+                </button>
+            </div>
+        </div>
+    </header><!-- /.header -->
+
+    <!-- Main -->
+    <main class="main" id="home">
+        <div class="container">
+            <div class="main__inner">
+                <div class="main__content">
+                    <div class="main__name"><h1>Denis Novik</h1></div>
+                    <div class="main__description">
+                        <p>UX | UI designer</p>
+                        <p>24 years old, Minks</p>
+                    </div>
+                </div>
+                <div class="main__image">
+                    <img class="image" src="assets/images/BSPP2266.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </main><!-- /.main -->
+
+    <!-- About -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="about__inner">
+                <h2 class="subtitle">About me</h2>
+                <div class="about__content">
+                    <p>Hi, I'm Denis – UX/UI designer from Minsk.</p>
+                    <p class="bottom">I'm interested in design and everything connected with it.</p>
+                    <p class="bottom" class="text">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
+                    <p class="text">Ready to implement excellent projects with wonderful people.</p>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.about -->
+
+    <!-- Skills -->
+    <div class="skills" id="skills">
+        <div class="container">
+            <div class="skills__inner">
+                <h2 class="subtitle">Skills</h2>
+                <div class="about__skills">
+                    <p>I work in such programs as</p>
+                </div>
+                <div class="programms">
+                    <div class="prog">
+                        <img class="prog__image" src="assets/images/rating/ps.png" alt="">
+                        <div class="prog__name"><p>Adobe</p> Photoshop</div>
+                        <div class="rating-mini">
+                            <span class="active"></span>	
+                            <span class="active"></span>    
+                            <span class="active"></span>  
+                            <span class="active"></span>    
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="prog">
+                        <img class="prog__image" src="assets/images/rating/ai.png" alt="">
+                        <div class="prog__name"><p>Adobe</p> Illustrator</div>
+                        <div class="rating-mini">
+                            <span class="active"></span>	
+                            <span class="active"></span>    
+                            <span class="active"></span>  
+                            <span></span>    
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="prog">
+                        <img class="prog__image" src="assets/images/rating/ae.png" alt="">
+                        <div class="prog__name"><p>Adobe</p> After Effects</div>
+                        <div class="rating-mini">
+                            <span class="active"></span>	
+                            <span class="active"></span>    
+                            <span class="active"></span>  
+                            <span class="active"></span>    
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="prog">
+                        <img class="prog__image" src="assets/images/rating/fig.png" alt="">
+                        <div class="prog__name">Figma</div>
+                        <div class="rating-mini">
+                            <span class="active"></span>	
+                            <span class="active"></span>    
+                            <span class="active"></span>  
+                            <span class="active"></span>    
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.skills -->
+
+    <!-- Works -->
+    <div class="works" id="portfolio">
+        <div class="container">
+            <div class="works__inner">
+                <h2 class="subtitle">Portfolio</h2>
+                <div class="work">
+                    <div class="work__image">
+                        <img src="assets/images/works/work-1.jpg" alt="">
+                    </div>
+                    <a class="work__link" href="#">Online fashion store - Homepage</a>
+                </div>
+                <div class="work">
+                    <div class="work__image">
+                        <img src="assets/images/works/work-2.jpg" alt="">
+                    </div>
+                    <a class="work__link" href="#">Reebok Store - Concept</a>
+                </div>
+                <div class="work">
+                    <div class="work__image">
+                        <img src="assets/images/works/work-3.jpg" alt="">
+                    </div>
+                    <a class="work__link" href="#">Braun Landing Page - Concept</a>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.works -->
+
+    <!-- Footer -->
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer__inner">
+                <h2 class="subtitle">Contacts</h2>
+                <div class="footer__text">
+                    <p class="text">Want to know more or just chat?</p>
+                    <p class="text">You are welcome!</p>
+                </div>
+                <button class="send">Send Message</button>
+                <div class="footer__icons">
+                    <a href="">
+                        <img src="assets/images/footer/in.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/footer/instagram.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/footer/behance.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/footer/ball.svg" alt="">
+                    </a>
+                </div>
+                <div class="copyright">
+                    <p>Like me on</p>
+                    <p>LinkedIn, Instagram, Behance, Dribble</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
