@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #212121;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: none;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      /* App */
+      .container {
+          max-width: 1080px;
+          width: 100%;
+          margin: 0 auto;
+          padding: 20px 40px 20px 20px;
+      }
+
+      .title {
+          margin-bottom: 30px;
+      }
+
+        .subtitle {
+            text-align: left;
+        }
+
+
+      .text {
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          line-height: 1.4;
+          font-size: 22px;
+          text-align: justify;
+      }
+
+      .image {
+          width: 100%;
+          height: auto;
+      }
+
+      .intro {
+          position: fixed;
+          top: 0;
+          left: 0;
+          height: 100vh;
+          width: 100%;
+      }
+
+
+
+    </style>
+  </head>
+
+  <body>
+<div class="intro" id="intro"></div>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="container">
+                <h1>Интернет-магазин комьютерной техники</h1>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="container">
+                <h1 class="title">Видение</h1>
+                <div class="text">Заказчиком является компания АРАХИС, которая заинтересована в разработке и выводе на рынок интернет-магазина для людей, которые заинтересованы приобрести различные товары компьютерной техники. Основной задачей данного магазина является обеспечение удобного и эффективного поиска товаров на сайте интернет-магазина и их приобретения. Интернет-магазин АРАХИС будет служить онлайн-инструментом организации взаимодействия между продавцом и клиентами данного сервиса.</div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="container">
+            <h1 class="title">Позиционирование</h1>
+            <h2 class="subtitle">Интуитивный интерфейс</h2>
+            <ul class="text">
+                <li>Начинайте с ввода данных</li>
+                <li>Сообщение об ошибке и предупреждения</li>
+                <li>Используйте сочетающиеся формы</li>
+                <li>Radio Buttons, Dropdowns и Checkboxes</li>
+                <li>По возможности исключайте поля необязательного ввода</li>
+                <li>Используйте автозаполнение для больших форм</li>
+                <li>Используйте условную логику</li>
+                <li>Используйте Placeholder правильно</li>
+                <li>Сообщайте о следующих шагах</li>
+                <li>Продолжайте искать способы оптимизации</li>
+            </ul>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="container">
+                <h1 class="title">Цели</h1>
+            <ul class="text">
+                <li>Предложите своим клиентам максимально широкий выбор популярных способов оплаты, чтобы они могли быстро совершать покупки: это уже не только про банковскую карту, но и про Apple Pay, и про Google Pay. Однако и тут можно пойти дальше – предоставить возможность привязать карту прямо к сайту.</li>
+                <li>Обычно сортировка: по цене, новизне, популярности. В идеальном магазине есть алгоритм, который с рассчитанной периодичностью и по специальной формуле оценивает популярность товаров. Формула всегда индивидуальная.</li>
+                <li>Обратитесь к своим покупателям с просьбой оставить отзыв. Скорее всего, большинство из них откликнется.</li>
+                <li>Стоит предоставить пользователям(покупателям) магазина широкий выбор товаров, поэтому необходимо увеличить ассортимент. </li>
+            </ul>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="container">
+                <h1>Бизнес сценарий</h1>
+                <img class="image" src="images/1.png" alt="">
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="container">
+                <h1>Контекстная диаграмма</h1>
+                <img src="images/_ce5IURjHDo.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="container">
+                <h1>Модель бизнес процессов</h1>
+                <img src="images/5u71QGJaQSQ.jpg" alt="">
+            </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="js/three.min.js"></script>
+    <script src="js/vanta.waves.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        direction: "vertical",
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
