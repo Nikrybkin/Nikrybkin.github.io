@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Итерация №4</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+     <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+<div class="intro" id="intro"></div>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="container">
+            <h1 class="title">Component Diagram</h1>
+            <img src="images/4/ComponentDiagram.png" height="600" alt="">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container">
+            <h1 class="title">Siquence Diagram</h1>
+            <img src="images/4/SiquencуDiagram.png" height="600" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="js/three.min.js"></script>
+    <script src="js/vanta.waves.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        direction: "vertical",
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
+        keyboard:{
+          enabled:true,
+          onlyInViewport: true,
+          pageUpDown:true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
